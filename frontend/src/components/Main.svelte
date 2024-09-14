@@ -24,21 +24,17 @@
       <div class="grid grid-cols-2 gap-12 lg:gap-10"></div>
     </div>
   </section>
-  <!-- <section
-    id="about"
-    class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
-  >
-    <div
-      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
-    >
-      <h6 class="text-lg sm:text-xl md:text-2xl">Want To Know More?</h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        A Bit <span class="poppins text-violet-400">About</span> Me
-      </h3>
-    </div>
-    <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-      I am . . .
-    </p>
-    <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]"></div>
-  </section> -->
 </main>
+
+<style>
+  main {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  :global(body) {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+</style>

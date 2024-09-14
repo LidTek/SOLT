@@ -2,9 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="./style.css">
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
-		<script  src="./script.js"></script>
+		<link rel="stylesheet" href="./app.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +18,8 @@
 	<body data-sveltekit-preload-data="hover" class="bg-slate-950 text-white relative">
 		<div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
 		<div class="absolute min-h-screen top-0 left- w-full z-[-1] opacity-70">
-			<canvas id="c"></canvas>
+			<canvas class="c"></canvas>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script><script  src="./index.js"></script>
 		</div>
 	</body>
 </html>
