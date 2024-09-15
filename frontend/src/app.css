@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-canvas {
-    display: block;
-    width: 100vw;
-    height: 100vh;
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.poppins{
+    font-family: 'Poppins', sans-serif;
 }
