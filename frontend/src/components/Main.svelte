@@ -2,6 +2,7 @@
 </script>
 
 <main>
+  <div class="box"></div>
   <div class="flex flex-col items-center">
     <h1
       class="py-4 font-bold
