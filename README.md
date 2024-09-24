@@ -1,4 +1,4 @@
 # LidTek SOLT
 
 TODO:
-Align black place to left.
+Align black place to left..
