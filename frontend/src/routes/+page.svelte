@@ -5,4 +5,3 @@
 
 <Main />
 <Hero />
-<!-- <Footer /> -->
