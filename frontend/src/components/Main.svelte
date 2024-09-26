@@ -11,7 +11,7 @@
     </h1>
   </div>
   <div
-    class="rounded-l-lg py-20 sm:py-32 px-20 max-w-[1250px] bg-black rounded-full flex flex-col gap-4 sm:gap-8 justify-center items-center relative opacity-40"
+    class="rounded-l-lg py-10 sm:py-16 px-20 max-w-[1250px] bg-black rounded-full flex flex-col gap-4 sm:gap-8 justify-center items-center relative opacity-40"
   >
     <div class="justify-center items-center relative opacity-100">
       <p class="mx-auto poppins font-semibold text-md sm:text-l md:text-xl">
