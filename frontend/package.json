@@ -18,5 +18,11 @@
 		"tailwindcss": "^3.4.11",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@auth/core": "^0.35.3",
+		"@auth/sveltekit": "^1.5.3",
+		"dotenv": "^16.4.5",
+		"ts": "^0.0.0"
+	}
 }
