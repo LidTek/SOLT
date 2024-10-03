@@ -6,7 +6,7 @@
   class="z-[10] top-0 duration-200 px-6 py-6 flex items-center justify-center"
 >
   <div
-    class="py-10 px-20 sm:py-20 sm:px-40 bg-black max-w-[1400px] rounded-full flex flex-col items-center opacity-70"
+    class="py-10 px-20 sm:py-20 sm:px-40 bg-black max-w-[1400px] rounded-full flex flex-col items-center opacity-100"
   >
     <div class="mb-6">
       <label

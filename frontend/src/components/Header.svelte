@@ -14,14 +14,25 @@
   </h1>
   <div class="sm:flex flex wrap items-center content-end space-x-4">
     {#if $page.data.session?.user}
-      <p>Signed in as {$page.data.session.user.email}</p>
-      <button on:click={signOut}>Sign out</button>
+      <p class="mx-auto poppins font-semibold text-sm sm:text-md md:text-l">
+        Signed in as {$page.data.session.user.email}
+      </p>
+      <button
+        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-sm md:text-md poppins relative justify-center overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+        on:click={signOut}>Sign out</button
+      >
     {:else}
-      <p>Not signed in.</p>
-      <button class="bg-black rounded-full" on:click={() => signIn("google")}
+      <p class="mx-auto poppins font-semibold text-sm sm:text-md md:text-l">
+        Not signed in.
+      </p>
+      <button
+        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-sm md:text-md poppins relative justify-center overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+        on:click={() => signIn("google")}
         >Sign In With Google <i class="fa-brands fa-google"></i></button
       >
-      <button class="bg-black rounded-full" on:click={() => signIn("github")}
+      <button
+        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-sm md:text-md poppins relative justify-center overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+        on:click={() => signIn("github")}
         >Sign In With Github <i class="fa-brands fa-github"></i></button
       >
     {/if}
