@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { SvelteKitAuth } from "@auth/sveltekit";
 import GitHub from "@auth/sveltekit/providers/github";
 import Google from "@auth/core/providers/google";
