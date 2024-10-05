@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
   export let y;
   import { signIn, signOut } from "@auth/sveltekit/client";
   import { page } from "$app/stores";
+  console.log($page.data.session);
 </script>
 
 <header
