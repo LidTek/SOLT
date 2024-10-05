@@ -11,6 +11,7 @@ import {
 } from "$env/static/private";
 
 export const { handle } = SvelteKitAuth({
+  secret: process.env.SECRET || "secret",
   trustHost: true, // Added for reverse proxy on gamu
   providers: [
     GitHub({ clientId: GITHUB_ID, clientSecret: GITHUB_SECRET }),
