@@ -11,13 +11,13 @@
     <div class="mb-6">
       <label
         for="success"
-        class="block mb-2 text-sm font-medium text-green-700 dark:text-green-500"
+        class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-500"
         >Your name</label
       >
       <input
         type="text"
         id="success"
-        class="bg-violet-50 border border-violet-500 dark:text-violet-400 placeholder--700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-green-500"
+        class="bg-violet-50 border border-violet-500 dark:text-gray-400 placeholder--700 dark:placeholder-gray-500 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-500"
         placeholder="Enter A Legit Name"
       />
     </div>
