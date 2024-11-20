@@ -5,12 +5,7 @@
 body {
     background: rgb(60,197,255);
     background: linear-gradient(to right bottom, rgba(60,197,255,1) 0%, rgba(255,128,79,1) 50%, rgba(185,76,255,1) 100%);
-}
-canvas {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-}
+  }
 
 *{
     font-family: 'Roboto', sans-serif;

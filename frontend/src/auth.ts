@@ -10,8 +10,6 @@ import {
   GOOGLE_SECRET,
 } from "$env/static/private";
 
-
-
 export const { handle } = SvelteKitAuth({
   secret: process.env.SECRET || "secret",
   trustHost: true, // Added for reverse proxy on gamu
